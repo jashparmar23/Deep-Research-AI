@@ -34,7 +34,7 @@ logger = logging.getLogger("deep-research-mcp")
 
 MODEL_PATH = r"C:\Users\jashp\Downloads\Deep Research Agent\mistral-7b-instruct-v0.2.Q4_K_S.gguf"
 LLAMA_CLI_BIN = r"C:\Users\jashp\Downloads\Deep Research Agent\llama.cpp\build\bin\Release\llama-cli.exe"
-RAPIDAI_API_KEY = "56dcf10ca7msh37d661ee8670ac4p1fa914jsnd4e0fc5c3eef"
+RAPIDAI_API_KEY = "YOUR API"
 
 model = None
 rapid_agent = None
