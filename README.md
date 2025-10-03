@@ -390,7 +390,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🏗️ System Architecture
 
-![Deep-Research-AI](assets/sysetm_desigm_for_deep_research.png)
+![Deep-Research-AI](assets/system_design.png)
 
 
 ## 📞 Support
