@@ -67,7 +67,7 @@ if __name__ == "__main__":
     with contextlib.redirect_stdout(sys.stderr):  # redirect to stderr to hide
         initial_output = model.generate_text(user_query)
 
-        rapidai_api_key = "56dcf10ca7msh37d661ee8670ac4p1fa914jsnd4e0fc5c3eef"
+        rapidai_api_key = "YOUR API KEY"
         rapid_agent = RapidAIAgent(rapidai_api_key)
         urls, aggregated_content = [], ""
 
@@ -105,3 +105,4 @@ if __name__ == "__main__":
     final_output = "\n\n".join(final_sections)
     print("\n================ FINAL CATEGORIZED SUMMARY ================\n")
     print(final_output)
+
