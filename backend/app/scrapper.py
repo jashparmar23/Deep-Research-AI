@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-SCRAPERAPI_KEY = "4e0ca5f850a785268d631e6a08cb50eb"  # Your ScraperAPI key
+SCRAPERAPI_KEY = "YOUR_API_KEY"  # Your ScraperAPI key
 MAX_CHARS_PER_SOURCE = 2000  # Limit text to avoid LLM max token issues
 
 def scrape_url(url: str, retries: int = 3, backoff: int = 5) -> str:
@@ -79,3 +79,4 @@ def scrape_multiple_urls(urls: list, max_urls: int = 5) -> str:
         if text:
             scraped_texts.append(f"--- Content from {url} ---\n{text}")
     return "\n\n---\n\n".join(scraped_texts)
+
