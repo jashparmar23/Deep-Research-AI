@@ -1,7 +1,7 @@
 from social_media import RapidAIAgent
 
 if __name__ == "__main__":
-    rapidai_api_key = "56dcf10ca7msh37d661ee8670ac4p1fa914jsnd4e0fc5c3eef"
+    rapidai_api_key = "YOUR API KEY"
     agent = RapidAIAgent(rapidai_api_key)
 
     query = input("Enter a query to test RapidAI: ").strip()
@@ -27,3 +27,4 @@ if __name__ == "__main__":
 
     except Exception as e:
         print(f"Error fetching data from RapidAI: {e}")
+
