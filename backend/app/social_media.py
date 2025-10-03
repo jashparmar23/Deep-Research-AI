@@ -72,7 +72,7 @@ class RapidAIAgent:
         }
 
 if __name__ == "__main__":
-    api_key = "56dcf10ca7msh37d661ee8670ac4p1fa914jsnd4e0fc5c3eef"
+    api_key = "YOUR_API_KEY"
     agent = RapidAIAgent(api_key)
 
     # Example usage:
@@ -88,3 +88,4 @@ if __name__ == "__main__":
         print(result)
     except Exception as e:
         print(f"Error fetching data: {e}")
+
