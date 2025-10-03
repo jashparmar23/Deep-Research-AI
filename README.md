@@ -388,6 +388,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **React Community** - For the frontend framework
 - **Flask** - For the web framework
 
+## 🏗️ System Architecture
+
+![Deep-Research-AI](assets/sysetm desigm for deep research.png)
+
+
 ## 📞 Support
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/deep-research-agent/issues)
